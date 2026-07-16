@@ -1,0 +1,28 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LS changed to 255.
+NOTE: Option PS changed to 65.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: Option COMPRESS changed to NO.
+NOTE: Option FORMCHAR changed to |----|+|---+=|-/\<>*.
+NOTE: DATA work.orders
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote work.orders (6 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=work.orders
+
+NOTE: Read 6 rows from work.orders.
+NOTE: Wrote work.orders_sorted (6 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=work.orders_sorted
+
+NOTE: PROC PRINT completed: 6 observations printed, 4 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_region.spec.json
+NOTE: PROC FREQ statement used.

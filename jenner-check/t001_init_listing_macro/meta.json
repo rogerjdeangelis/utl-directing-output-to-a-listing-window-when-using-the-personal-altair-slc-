@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_init_listing_macro",
+  "source_file": "utl-directing-output-to-a-listing-window-when-using-the-personal-altair-slc-.sas",
+  "source_blob_sha": "5cc9d8059a1af10228b1efc4e2efb78baa86d519",
+  "source_commit": "6f09eb9940786ac5c044723e255af03ad5fc429d",
+  "notes": "Repo is a short tip write-up (prose + embedded SAS) on forcing LISTING (not HTML) output under the Personal Altair SLC. Extracted the documented '_init_ macro variable' pattern (CONTENTS item 2: %global _init_; %let _init_=%nrstr(ods html close; ods listing; options ...); then &_init_;) verbatim from the source file, and added a small inline-datalines dataset plus PROC PRINT/PROC MEANS to exercise it end-to-end and confirm listing output is produced."
+}

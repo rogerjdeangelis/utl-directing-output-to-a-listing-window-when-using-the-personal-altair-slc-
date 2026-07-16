@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_hardcoded_listing_options",
+  "source_file": "utl-directing-output-to-a-listing-window-when-using-the-personal-altair-slc-.sas",
+  "source_blob_sha": "5cc9d8059a1af10228b1efc4e2efb78baa86d519",
+  "source_commit": "6f09eb9940786ac5c044723e255af03ad5fc429d",
+  "notes": "Second technique from the same source file (CONTENTS item 1: 'hardcoding' - options noerrorabend; ods html close; ods listing; the ls/ps/nofmterr/nocenter/validvarname/FORMCHAR options block), applied directly without the _init_ macro wrapper used in t001. Added a small orders dataset plus PROC SORT/PROC PRINT/PROC FREQ to confirm the listing capture works standalone."
+}
