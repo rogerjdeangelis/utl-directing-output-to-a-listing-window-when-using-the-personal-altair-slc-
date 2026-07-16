@@ -1,0 +1,19 @@
+Listing window output - not HTML - per the _init_ macro pattern
+
+     CITY  STATE  POP_THOUSANDS
+Baltimore  MD               585
+Columbia   MD               104
+Frederick  MD                78
+Rockville  MD                68
+Annapolis  MD                40
+Bethesda   MD                62
+
+Summary of population (thousands) - confirms listing capture
+
+                                                                                                                      The MEANS Procedure
+
+ Variable             N            Mean        Minimum         Maximum
+ ---------------------------------------------------------------------
+ POP_THOUSANDS        6     156.1666667     40.0000000     585.0000000
+ ---------------------------------------------------------------------
+

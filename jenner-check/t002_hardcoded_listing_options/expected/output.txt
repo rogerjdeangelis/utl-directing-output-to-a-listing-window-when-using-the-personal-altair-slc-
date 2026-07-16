@@ -1,0 +1,18 @@
+Hardcoded listing-window options - sorted order report
+
+REGION   PRODUCT  QTY      AMT
+East    Gadget     60  1800.75
+East    Sprocket  200     3000
+East    Widget    120   2400.5
+West    Gadget     45  1350.25
+West    Sprocket  150     2250
+West    Widget     95     1900
+
+Region frequency - confirms listing capture (option 1: hardcoding)
+
+                                                                                                                      The FREQ Procedure
+
+REGION    Frequency    Percent
+-------------------------------
+East              3     50.00
+West              3     50.00
